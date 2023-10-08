@@ -1,0 +1,13 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+@font-face {
+    font-family: CreteRound-Italic;
+    src: url(../fonts/CreteRound-Italic.ttf);
+}
+
+@font-face {
+    font-family: CreteRound-Regular;
+    src: url(../fonts/CreteRound-Regular.ttf);
+}

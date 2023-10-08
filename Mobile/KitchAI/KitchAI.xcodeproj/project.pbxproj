@@ -1,0 +1,413 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		451BE86F2AD2C5F700D79C64 /* KitchAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BE86E2AD2C5F700D79C64 /* KitchAIApp.swift */; };
+		451BE8712AD2C5F700D79C64 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 451BE8702AD2C5F700D79C64 /* MainView.swift */; };
+		451BE8732AD2C5F800D79C64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451BE8722AD2C5F800D79C64 /* Assets.xcassets */; };
+		451BE8762AD2C5F800D79C64 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 451BE8752AD2C5F800D79C64 /* Preview Assets.xcassets */; };
+		451BE87F2AD2C67500D79C64 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 451BE87E2AD2C67500D79C64 /* Alamofire */; };
+		45585C102AD2C94C00ADD2C6 /* BarcodeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45585C0F2AD2C94C00ADD2C6 /* BarcodeManager.swift */; };
+		45585C122AD2C9FA00ADD2C6 /* KitchINSightManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45585C112AD2C9FA00ADD2C6 /* KitchINSightManager.swift */; };
+		45585C142AD2D13100ADD2C6 /* Launchscreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45585C132AD2D13100ADD2C6 /* Launchscreen.storyboard */; };
+		45585C162AD2D19600ADD2C6 /* KitchAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 45EAF0D32AD2C77A00795A32 /* KitchAI-Info.plist */; };
+		45EAF0D22AD2C76F00795A32 /* Fonts in Resources */ = {isa = PBXBuildFile; fileRef = 45EAF0D12AD2C76F00795A32 /* Fonts */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		451BE86B2AD2C5F700D79C64 /* KitchAI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KitchAI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		451BE86E2AD2C5F700D79C64 /* KitchAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchAIApp.swift; sourceTree = "<group>"; };
+		451BE8702AD2C5F700D79C64 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		451BE8722AD2C5F800D79C64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		451BE8752AD2C5F800D79C64 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		451BE8772AD2C5F800D79C64 /* KitchAI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = KitchAI.entitlements; sourceTree = "<group>"; };
+		45585C0F2AD2C94C00ADD2C6 /* BarcodeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarcodeManager.swift; sourceTree = "<group>"; };
+		45585C112AD2C9FA00ADD2C6 /* KitchINSightManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KitchINSightManager.swift; sourceTree = "<group>"; };
+		45585C132AD2D13100ADD2C6 /* Launchscreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Launchscreen.storyboard; sourceTree = "<group>"; };
+		45EAF0D12AD2C76F00795A32 /* Fonts */ = {isa = PBXFileReference; lastKnownFileType = folder; name = Fonts; path = KitchAI/Fonts; sourceTree = SOURCE_ROOT; };
+		45EAF0D32AD2C77A00795A32 /* KitchAI-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KitchAI-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		451BE8682AD2C5F700D79C64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				451BE87F2AD2C67500D79C64 /* Alamofire in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		451BE8622AD2C5F700D79C64 = {
+			isa = PBXGroup;
+			children = (
+				451BE86D2AD2C5F700D79C64 /* KitchAI */,
+				451BE86C2AD2C5F700D79C64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		451BE86C2AD2C5F700D79C64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				451BE86B2AD2C5F700D79C64 /* KitchAI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		451BE86D2AD2C5F700D79C64 /* KitchAI */ = {
+			isa = PBXGroup;
+			children = (
+				451BE8772AD2C5F800D79C64 /* KitchAI.entitlements */,
+				451BE86E2AD2C5F700D79C64 /* KitchAIApp.swift */,
+				451BE8702AD2C5F700D79C64 /* MainView.swift */,
+				45585C112AD2C9FA00ADD2C6 /* KitchINSightManager.swift */,
+				45585C0F2AD2C94C00ADD2C6 /* BarcodeManager.swift */,
+				45EAF0D32AD2C77A00795A32 /* KitchAI-Info.plist */,
+				451BE8722AD2C5F800D79C64 /* Assets.xcassets */,
+				45585C132AD2D13100ADD2C6 /* Launchscreen.storyboard */,
+				45EAF0D12AD2C76F00795A32 /* Fonts */,
+				451BE8742AD2C5F800D79C64 /* Preview Content */,
+			);
+			path = KitchAI;
+			sourceTree = "<group>";
+		};
+		451BE8742AD2C5F800D79C64 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				451BE8752AD2C5F800D79C64 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		451BE86A2AD2C5F700D79C64 /* KitchAI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 451BE87A2AD2C5F800D79C64 /* Build configuration list for PBXNativeTarget "KitchAI" */;
+			buildPhases = (
+				451BE8672AD2C5F700D79C64 /* Sources */,
+				451BE8682AD2C5F700D79C64 /* Frameworks */,
+				451BE8692AD2C5F700D79C64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KitchAI;
+			packageProductDependencies = (
+				451BE87E2AD2C67500D79C64 /* Alamofire */,
+			);
+			productName = KitchAI;
+			productReference = 451BE86B2AD2C5F700D79C64 /* KitchAI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		451BE8632AD2C5F700D79C64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					451BE86A2AD2C5F700D79C64 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = 451BE8662AD2C5F700D79C64 /* Build configuration list for PBXProject "KitchAI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 451BE8622AD2C5F700D79C64;
+			packageReferences = (
+				451BE87D2AD2C67500D79C64 /* XCRemoteSwiftPackageReference "Alamofire" */,
+			);
+			productRefGroup = 451BE86C2AD2C5F700D79C64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				451BE86A2AD2C5F700D79C64 /* KitchAI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		451BE8692AD2C5F700D79C64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45EAF0D22AD2C76F00795A32 /* Fonts in Resources */,
+				45585C142AD2D13100ADD2C6 /* Launchscreen.storyboard in Resources */,
+				451BE8762AD2C5F800D79C64 /* Preview Assets.xcassets in Resources */,
+				45585C162AD2D19600ADD2C6 /* KitchAI-Info.plist in Resources */,
+				451BE8732AD2C5F800D79C64 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		451BE8672AD2C5F700D79C64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45585C102AD2C94C00ADD2C6 /* BarcodeManager.swift in Sources */,
+				45585C122AD2C9FA00ADD2C6 /* KitchINSightManager.swift in Sources */,
+				451BE8712AD2C5F700D79C64 /* MainView.swift in Sources */,
+				451BE86F2AD2C5F700D79C64 /* KitchAIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		451BE8782AD2C5F800D79C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		451BE8792AD2C5F800D79C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		451BE87B2AD2C5F800D79C64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KitchAI/KitchAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitchAI/Preview Content\"";
+				DEVELOPMENT_TEAM = W6348FRURZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KitchAI/KitchAI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KitchAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan food items around your household!";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchscreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.00.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knighthacks.KitchAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		451BE87C2AD2C5F800D79C64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = KitchAI/KitchAI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"KitchAI/Preview Content\"";
+				DEVELOPMENT_TEAM = W6348FRURZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "KitchAI/KitchAI-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = KitchAI;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.social-networking";
+				INFOPLIST_KEY_NSCameraUsageDescription = "To scan food items around your household!";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_UILaunchStoryboardName = Launchscreen.storyboard;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.00.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.knighthacks.KitchAI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		451BE8662AD2C5F700D79C64 /* Build configuration list for PBXProject "KitchAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451BE8782AD2C5F800D79C64 /* Debug */,
+				451BE8792AD2C5F800D79C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		451BE87A2AD2C5F800D79C64 /* Build configuration list for PBXNativeTarget "KitchAI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				451BE87B2AD2C5F800D79C64 /* Debug */,
+				451BE87C2AD2C5F800D79C64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		451BE87D2AD2C67500D79C64 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		451BE87E2AD2C67500D79C64 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 451BE87D2AD2C67500D79C64 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 451BE8632AD2C5F700D79C64 /* Project object */;
+}
